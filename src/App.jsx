@@ -43,7 +43,7 @@ return(
           id="titulo"
           name="titulo"
           type="text" 
-          onChange={handleInputChange}
+          onChange={handleInputChange} 
           value={inputState.titulo}
           style={{ width: "100%" }}
           />
@@ -68,7 +68,7 @@ return(
               name="nota"
               type="text" 
               onChange={handleInputChange}
-              value={inputState.fecha}
+              value={inputState.nota}
               style={{ width: "100%" }}
               />
         </label>
